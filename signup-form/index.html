@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <form name="myform" action="submit.html" onsubmit="return validate()">
+        <h1> Signup Form </h1>
+
+        <label> First Name : </label>
+        <input type="text" id="fname" placeholder="John">
+        <span id="fname-error" class="error-font-style"></span>
+
+        <label> Last Name : </label>
+        <input type="text" id="lname" placeholder="Cayra">
+        <span id="lname-error" class="error-font-style"></span>
+
+        <label> Email ID : </label>
+        <input type="text" id="email" placeholder="abc@gmail.com">
+        <span id="email-error" class="error-font-style"></span>
+
+        <label> Mobile Number : </label>
+        <input type="number" id="phnnumber" placeholder="9999999999">
+        <span id="number-error" class="error-font-style"></span>
+
+        <label> Password : </label>
+        <input type="password" id="pwd" placeholder="Write password here">
+        <span id="pswd-error" class="error-font-style"></span>
+
+        <label> Confirm Password : </label>
+        <input type="password" id="cpwd" placeholder="Enter the same password as above">
+        <span id="cpswd-error" class="error-font-style"></span>
+
+        <label> Age : </label>
+        <input type="number" id="age" placeholder="Enter age here">
+        <span id="age-error" class="error-font-style"></span>
+
+        <button type="submit " class="btn"> Submit </button>
+    </form>
+</body>
+<script src="assets/js/script.js"></script>
+</html>
